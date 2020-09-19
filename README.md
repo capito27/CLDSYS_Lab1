@@ -1,4 +1,4 @@
-# CLDSYS_Lab21
+# CLDSYS_Labo1
 
 Quickstart instructions : 
 1. npm install both the backend and frontend projects
