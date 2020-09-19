@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "pete842",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "mongodb": "latest"
+  },
+  "devDependencies": {
+    "html": "^1.0.0",
+    "nodemon": "latest",
+    "underscore": "^1.9.1"
+  }
+}
