@@ -7,3 +7,4 @@ Quickstart instructions :
 4. start the mongoDB database
 5. start the backend module with `npm run start` in the backend directory
 6. start the frontend module with `npm run serve` in the frontend directory
+7. use the default credentials `admin:admin`
