@@ -15,7 +15,7 @@ app.use('/', defaultRouter);
 app.use('/', userRouter);
 app.use('/admin', adminRouter);
 
-const port = 3000;
+const port = process.env.BACKEND_PORT || 3000;
 
 Connection.connectToMongo().then(() => {
         Connection.db.collection('users').update({_id: new mongodb.ObjectId('5d9af2e377d89502c30471d8')},

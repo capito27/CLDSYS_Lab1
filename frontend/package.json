@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "./serve-frontend.sh",
     "build": "vue-cli-service build --mode production",
     "lint": "vue-cli-service lint"
   },

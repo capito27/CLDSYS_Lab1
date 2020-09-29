@@ -9,7 +9,7 @@ class Connection {
 }
 
 Connection.db = null;
-Connection.url = 'mongodb://mongo:27017';
+Connection.url = process.env.MONGODB_URI || 'mongodb://localhost:27017';
 Connection.dbname = 'mailbox';
 Connection.options = {
     bufferMaxEntries: 0,
